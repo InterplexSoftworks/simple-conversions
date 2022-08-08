@@ -1,6 +1,6 @@
 {
   "name": "simple-conversions",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A NPM package to simply convert measurements.",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "knots",
     "miles-per-hour",
     "kilometers-per-hour"
-    ],
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/InterplexSoftworks/simple-conversions.git"
