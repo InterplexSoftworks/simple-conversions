@@ -80,5 +80,42 @@ console.log(convert.KtToKPH(1)) // 1 = amount of knots
 ```
 Output: 0.5399568034557235
 # Temperatures
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.FtoC(32)) // 32 = fahrenheit value
+```
+Output: 0
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.CtoF(0)) // 0 = celsius value
+```
+Output: 32
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.FtoK(32)) // 32 = fahrenheit value (to kelvin)
+```
+Output: 273.15
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.CtoK(0)) // 0 = celsius value (to kelvin)
+```
+Output: 273.15
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.KtoF(273.15)) // 273.15 = kelvin value
+```
+Output: 32
+```js
+var convert = require('simple-conversions')
+
+console.log(convert.KtoC(273.15)) // 273.15 = kelvin value
+```
+Output: 0
+
 
 Thanks for looking at!
