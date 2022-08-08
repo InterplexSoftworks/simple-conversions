@@ -23,8 +23,21 @@
     "ft",
     "cm",
     "simple",
-    "converted"
-  ],
+    "converted",
+    "celsius",
+    "fahrenheit",
+    "kelvin",
+    "k",
+    "c",
+    "f",
+    "mph",
+    "kph",
+    "k",
+    "knot",
+    "knots",
+    "miles-per-hour",
+    "kilometers-per-hour"
+    ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/InterplexSoftworks/simple-conversions.git"
