@@ -1,6 +1,6 @@
 {
   "name": "simple-conversions",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A NPM package to simply convert measurements and other things.",
   "main": "index.js",
   "scripts": {

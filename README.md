@@ -1,6 +1,6 @@
 # Simple Conversions
 ----
-A NPM package to simply convert measurements and other things.
+A NPM package / GitHub repository to simply convert measurements and other things.
 ----
 Install using
 ```
