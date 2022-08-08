@@ -1,5 +1,5 @@
 var simple = require('./index.js')
 
-var input = simple.KmphToMPH(1.609344)
+var input = simple.KtToKPH(1)
 
 console.log(input)
