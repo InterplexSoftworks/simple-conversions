@@ -117,5 +117,12 @@ console.log(convert.KtoC(273.15)) // 273.15 = kelvin value
 ```
 Output: 0
 
+# Repository
+[GitHub](https://github.com/InterplexSoftworks/simple-conversions)<br>
+[GitHub/Bugs](https://github.com/InterplexSoftworks/simple-conversions/issues)<br>
+[GitHub/README](https://github.com/InterplexSoftworks/simple-conversions#readme)<br>
+[NPM Package](https://www.npmjs.com/package/simple-conversions)<br>
+[Run on RunKit](https://npm.runkit.com/simple-conversions)<br>
+
 
 Thanks for looking at!
