@@ -1,4 +1,6 @@
 # Simple Conversions
+[![npm version](https://img.shields.io/badge/simple--conversions-v1.0.8-blue)](https://npm.im/simple-conversions)
+[![license](https://img.shields.io/badge/license-ISC-green)](https://npm.im/simple-conversions)
 ----
 A NPM package / GitHub repository to simply convert measurements and other things.
 ----
@@ -124,7 +126,7 @@ Output: 0
 [GitHub](https://github.com/InterplexSoftworks/simple-conversions)<br>
 [GitHub/Bugs](https://github.com/InterplexSoftworks/simple-conversions/issues)<br>
 [GitHub/README](https://github.com/InterplexSoftworks/simple-conversions#readme)<br>
-[NPM Package](https://www.npmjs.com/package/simple-conversions)<br>
+[NPM Package](https://npm.im/simple-conversions)<br>
 [Run on RunKit](https://npm.runkit.com/simple-conversions)<br>
 
 
