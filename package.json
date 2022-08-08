@@ -1,0 +1,28 @@
+{
+  "name": "simple-conversions",
+  "version": "1.0.1",
+  "description": "A NPM package to simply convert measurements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dalkg",
+  "license": "ISC",
+  "keywords": [
+    "convert",
+    "converting",
+    "conversion",
+    "inches",
+    "miles",
+    "kilometers",
+    "feet",
+    "centimeters",
+    "in",
+    "mi",
+    "km",
+    "ft",
+    "cm",
+    "simple",
+    "converted"
+  ]
+}
