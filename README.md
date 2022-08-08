@@ -4,6 +4,8 @@ Install using
 npm i simple-conversions
 ```
 How to use:
+
+# Length
 ```js
 var convert = require('simple-conversions')
 
@@ -40,5 +42,6 @@ var convert = require('simple-conversions')
 console.log(convert.FtToCM(1)) // 1 = amount of feet
 ```
 Output: 30.48
+# 
 
 Thanks for looking at!
