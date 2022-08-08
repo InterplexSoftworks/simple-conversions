@@ -79,5 +79,6 @@ var convert = require('simple-conversions')
 console.log(convert.KtToKPH(1)) // 1 = amount of knots
 ```
 Output: 0.5399568034557235
+# Temperatures
 
 Thanks for looking at!

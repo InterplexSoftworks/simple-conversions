@@ -69,7 +69,7 @@ exports.FtToCM = function(num, num2) { // How it works: <function>.FtToCM(5, 4) 
         }
 
 exports.FtoC = function(num) {
-    var errors = `A temprature wasn't provided.`
+    var errors = `A temperature wasn't provided.`
     var sub = 32
     var mb = 0.5556
     var f = num
@@ -82,7 +82,7 @@ exports.FtoC = function(num) {
         }
         
 exports.CtoF = function(num) {
-    var errors = `A temprature wasn't provided.`
+    var errors = `A temperature wasn't provided.`
     var addt = 32
     var mb = 1.8
     var c = num
@@ -155,6 +155,58 @@ exports.KtToKPH = function(num) {
     var kt = num
     if(isNaN(kt)) return errors;
     const answer = kt / dividee
+    if(isNaN(answer)) return errors;
+    const finish =  `${answer}`
+        return finish
+        }
+
+exports.CtoK = function(num) {
+    var errors = `A temperature wasn't provided.`
+    var addt = 273.15
+    var c = num
+    if(isNaN(c)) return errors;
+    const answer = c + addt
+    if(isNaN(answer)) return errors;
+    const finish =  `${answer}`
+        return finish
+        }
+
+exports.FtoK = function(num) {
+    var errors = `A temperature wasn't provided.`
+    var addt = 273.15
+    var sub = 32
+    var dividee = 0.5556
+    var f = num
+    if(isNaN(f)) return errors;
+    const answerTest1 = f - sub
+    const answerTest2 = answerTest1 / dividee
+    const answer =  answerTest2 + addt
+    if(isNaN(answer)) return errors;
+    const finish =  `${answer}`
+        return finish
+        }
+
+exports.KtoC = function(num) {
+    var errors = `A temperature wasn't provided.`
+    var sub = 273.15
+    var k = num
+    if(isNaN(k)) return errors;
+    const answer = k - sub
+    if(isNaN(answer)) return errors;
+    const finish =  `${answer}`
+        return finish
+        }
+
+exports.KtoF = function(num) {
+    var errors = `A temperature wasn't provided.`
+    var sub = 273.15
+    var addt = 32
+    var times = 1.8
+    var k = num
+    if(isNaN(k)) return errors;
+    const answerTest1 = k - sub
+    const answerTest2 = answerTest1 * times
+    const answer =  answerTest2 + addt
     if(isNaN(answer)) return errors;
     const finish =  `${answer}`
         return finish
