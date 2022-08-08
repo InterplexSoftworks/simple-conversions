@@ -1,4 +1,7 @@
 # Simple Conversions
+----
+A NPM package to simply convert measurements and other things.
+----
 Install using
 ```
 npm i simple-conversions
